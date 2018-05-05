@@ -1,0 +1,47 @@
+//公共样式
+$fleft: left;
+$fright: right;
+$hidden: hidden;
+$border-box: border-box;
+$block: block;
+$inline: inline;
+$none: none;
+
+// 相对定位
+$relative: relative;
+// 绝对定位
+$absolute: absolute;
+// 固定定位
+$fixed: fixed;
+
+//白色背景
+$white-back:#fff;
+// 颜色为ddd的border
+$same-border:1px solid  #ddd;
+
+//    添加高亮显示
+.high-color {
+    background: $white-back;
+}
+//  隐藏
+.hidden {
+    -webkit-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    transition: 1s;
+    opacity: 0;
+    z-index: -1;
+}
+//    显示
+.show {
+     -webkit-transition: opacity 1s;
+     -ms-transition: opacity 1s;
+     -moz-transition: opacity 1s;
+     transition:opacity z-index 1s;
+     opacity: 1;
+}
+//    给其他a元素设置透明度为0；
+.no {
+    opacity: 0;
+    filter: opacity(0);
+}
